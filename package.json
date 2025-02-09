@@ -1,5 +1,10 @@
 {
   "devDependencies": {
     "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://abhishekgupta-12.github.io/E-commerce",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
